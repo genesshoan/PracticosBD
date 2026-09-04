@@ -55,3 +55,8 @@ tasks.register('e4', JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'org.practico2.Ejercicio4'
 }
+
+tasks.register('e6', JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.practico2.Ejercicio6'
+}
